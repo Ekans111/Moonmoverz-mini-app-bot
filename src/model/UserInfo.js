@@ -3,38 +3,12 @@ import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
-    telID: {
-        type: String,
-        required: [true, "Telegram ID is Required."],
-        unique: true
-    },
-    username: {
-        type: String,
-        required: [true, "Username is Required."]
-    },
-    dailyLimit: {
-        type: Number,
-        min: 0,
-        max: 50,
-        default: 50
-    },
-    tokenBalance: {
-        type: Number,
-        default: 0
-    },
-    loginNum: {
-        type: Number,
-        default: 1
-    },
-    lastLoginDate: {
-        type: Number,
-    },
-    task: {
-        type: Schema.Types.ObjectId,
-        ref: "tasks"
-    }
-})
+    username: { type: String, default: "User" },
+    referralCode: { type: String, required: true, unique: true },
+    friends: [{ type: Object }],
+    referredBy: { type: String },
+    referralCount: { type: Number, default: 0 },
+    lastReferralDate: { type: Date, default: Date.now },
+});
 
-const User = mongoose.model("users", UserSchema);
-
-export default User;
+export default mongoose.model("User", UserSchema);

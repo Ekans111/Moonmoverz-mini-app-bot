@@ -1,1 +1,1 @@
-# Moonmoverz-mini-app-bot
+# TMA-nomad-bot
