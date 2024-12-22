@@ -1,0 +1,566 @@
+{
+    "2024-06-15": {
+        "question": "if money were a nonissue, how many trips outside of your country would you like to take per year?",
+        "options": [
+            "0 trips, i don't like to travel",
+            "1 trip is enough for me",
+            "2-4 trips",
+            "5+ trips, i want to be a digital nomad"
+        ]
+    },
+    "2024-06-16": {
+        "question": "what is your preferred mode of transportation when traveling?",
+        "options": [
+            "airplane",
+            "train",
+            "car",
+            "bus"
+        ]
+    },
+    "2024-06-17": {
+        "question": "how do you usually plan your travel itinerary?",
+        "options": [
+            "i plan everything in detail",
+            "i have a rough idea but decide on the go",
+            "i don't plan much, i go with the flow"
+        ]
+    },
+    "2024-06-18": {
+        "question": "what is your main reason for not traveling as much as you would like?",
+        "options": [
+            "lack of time",
+            "financial constraints",
+            "health concerns",
+            "other priorities"
+        ]
+    },
+    "2024-06-19": {
+        "question": "which continent would you most like to explore next?",
+        "options": [
+            "europe",
+            "asia",
+            "north america",
+            "south america",
+            "africa",
+            "australia"
+        ]
+    },
+    "2024-06-20": {
+        "question": "what do you enjoy the most about leaving google reviews?",
+        "options": [
+            "sharing experiences with others",
+            "supporting local businesses",
+            "expressing opinions and feedback",
+            "feeling part of a community"
+        ]
+    },
+    "2024-06-21": {
+        "question": "what do you find most frustrating about the travel booking process?",
+        "options": [
+            "finding affordable flights",
+            "comparing accommodation options",
+            "dealing with last-minute changes",
+            "navigating visa requirements"
+        ]
+    },
+    "2024-06-22": {
+        "question": "how comfortable are you with using cryptocurrency for travel transactions?",
+        "options": [
+            "very comfortable",
+            "somewhat comfortable",
+            "not very comfortable",
+            "not comfortable at all"
+        ]
+    },
+    "2024-06-23": {
+        "question": "what aspect of traveling do you find most tiring?",
+        "options": [
+            "long flights",
+            "jet lag",
+            "packing and unpacking",
+            "navigating through crowded tourist spots"
+        ]
+    },
+    "2024-06-24": {
+        "question": "how often do you check travel advisories and safety recommendations?",
+        "options": [
+            "regularly",
+            "occasionally",
+            "rarely",
+            "never"
+        ]
+    },
+    "2024-06-25": {
+        "question": "what motivates you the most to travel?",
+        "options": [
+            "exploring new cultures",
+            "relaxation and leisure",
+            "adventure and thrill",
+            "business and networking"
+        ]
+    },
+    "2024-06-26": {
+        "question": "what do you consider the biggest barrier to traveling more frequently?",
+        "options": [
+            "cost of travel",
+            "time constraints",
+            "work commitments",
+            "fear of the unknown"
+        ]
+    },
+    "2024-06-27": {
+        "question": "how do you prefer to find travel inspiration?",
+        "options": [
+            "social media",
+            "travel blogs and websites",
+            "recommendations from friends and family",
+            "travel documentaries and shows"
+        ]
+    },
+    "2024-06-28": {
+        "question": "what improvement would you like to see in travel booking platforms?",
+        "options": [
+            "more transparent pricing",
+            "better customer support",
+            "enhanced security features",
+            "improved user interface"
+        ]
+    },
+    "2024-06-29": {
+        "question": "what is your preferred accommodation type when traveling?",
+        "options": [
+            "hotels",
+            "vacation rentals (e.g., Airbnb)",
+            "hostels",
+            "staying with friends or family"
+        ]
+    },
+    "2024-06-30": {
+        "question": "how important is sustainable tourism to you?",
+        "options": [
+            "very important",
+            "somewhat important",
+            "not very important",
+            "not important at all"
+        ]
+    },
+    "2024-07-01": {
+        "question": "what is your biggest concern when traveling to a new destination?",
+        "options": [
+            "language barriers",
+            "safety and security",
+            "cultural differences",
+            "access to healthcare"
+        ]
+    },
+    "2024-07-02": {
+        "question": "what travel destination is at the top of your bucket list?",
+        "options": [
+            "paris, france",
+            "tokyo, japan",
+            "new york city, usa",
+            "sydney, australia",
+            "cape town, south africa",
+            "rio de janeiro, brazil"
+        ]
+    },
+    "2024-07-03": {
+        "question": "what travel activity do you enjoy the most?",
+        "options": [
+            "sightseeing and exploring landmarks",
+            "trying local cuisine",
+            "shopping for souvenirs",
+            "participating in cultural events"
+        ]
+    },
+    "2024-07-04": {
+        "question": "how do you handle currency exchange while traveling?",
+        "options": [
+            "using local ATMs",
+            "exchanging currency before departure",
+            "using credit/debit cards with no foreign transaction fees",
+            "using digital wallets or cryptocurrency"
+        ]
+    },
+    "2024-07-05": {
+        "question": "what is your preferred season for traveling?",
+        "options": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+        ]
+    },
+    "2024-07-06": {
+        "question": "what type of travel insurance do you usually purchase?",
+        "options": [
+            "comprehensive travel insurance",
+            "medical and health insurance only",
+            "no travel insurance",
+            "depends on the destination"
+        ]
+    },
+    "2024-07-07": {
+        "question": "how do you handle language barriers while traveling?",
+        "options": [
+            "learning basic phrases of the local language",
+            "using translation apps",
+            "relying on bilingual guides",
+            "hoping that most people speak English"
+        ]
+    },
+    "2024-07-08": {
+        "question": "what cultural aspect of a destination interests you the most?",
+        "options": [
+            "history and architecture",
+            "culinary traditions",
+            "festivals and celebrations",
+            "art and music"
+        ]
+    },
+    "2024-07-09": {
+        "question": "what is your preferred method of discovering new travel destinations?",
+        "options": [
+            "reading travel magazines",
+            "watching travel documentaries",
+            "browsing travel websites and forums",
+            "following travel influencers on social media"
+        ]
+    },
+    "2024-07-10": {
+        "question": "what would make you more likely to book a spontaneous trip?",
+        "options": [
+            "last-minute deals on flights and accommodations",
+            "recommendations from friends or influencers",
+            "availability of flexible cancellation policies",
+            "having extra vacation days"
+        ]
+    },
+    "2024-07-11": {
+        "question": "what is your preferred method of transportation within a city while traveling?",
+        "options": [
+            "public transportation (bus, subway)",
+            "walking or cycling",
+            "taxi or rideshare services",
+            "renting a car or motorcycle"
+        ]
+    },
+    "2024-07-12": {
+        "question": "how do you capture and share your travel experiences?",
+        "options": [
+            "taking photos and videos",
+            "writing travel blogs or journals",
+            "using social media platforms",
+            "sending postcards to friends and family"
+        ]
+    },
+    "2024-07-13": {
+        "question": "what do you find most challenging about traveling with children?",
+        "options": [
+            "keeping them entertained during long journeys",
+            "finding child-friendly accommodations",
+            "managing their sleep schedule",
+            "handling unexpected situations"
+        ]
+    },
+    "2024-07-14": {
+        "question": "how do you prefer to research local cuisine before traveling to a new destination?",
+        "options": [
+            "reading food blogs and reviews",
+            "watching cooking shows",
+            "asking for recommendations from locals",
+            "going on food tours"
+        ]
+    },
+    "2024-07-15": {
+        "question": "what travel accessory do you consider essential?",
+        "options": [
+            "travel pillow and blanket",
+            "portable charger/power bank",
+            "universal adapter",
+            "noise-cancelling headphones"
+        ]
+    },
+    "2024-07-16": {
+        "question": "what is your preferred type of vacation accommodation?",
+        "options": [
+            "luxury resorts",
+            "eco-friendly lodges",
+            "remote cabins",
+            "glamping sites"
+        ]
+    },
+    "2024-07-17": {
+        "question": "how do you stay connected with friends and family while traveling?",
+        "options": [
+            "using social media platforms",
+            "making international calls",
+            "sending emails or messages",
+            "using video chat apps"
+        ]
+    },
+    "2024-07-18": {
+        "question": "what is your main concern when traveling solo?",
+        "options": [
+            "safety and security",
+            "feeling lonely or isolated",
+            "making decisions without input from others",
+            "managing all aspects of the trip alone"
+        ]
+    },
+    "2024-07-19": {
+        "question": "how important is local cultural immersion to your travel experience?",
+        "options": [
+            "very important",
+            "somewhat important",
+            "not very important",
+            "not important at all"
+        ]
+    },
+    "2024-07-20": {
+        "question": "what is your preferred method of exploring a new destination?",
+        "options": [
+            "guided tours",
+            "self-guided exploration",
+            "local-led experiences",
+            "off-the-beaten-path discoveries"
+        ]
+    },
+    "2024-07-21": {
+        "question": "what is your preferred travel souvenir?",
+        "options": [
+            "local handicrafts and artworks",
+            "postcards and stamps",
+            "traditional clothing or accessories",
+            "local food and beverages"
+        ]
+    },
+    "2024-07-22": {
+        "question": "how do you adapt to unexpected changes in your travel plans?",
+        "options": [
+            "staying calm and finding alternatives",
+            "seeking assistance from travel agents or locals",
+            "embracing the spontaneity",
+            "feeling frustrated and stressed"
+        ]
+    },
+    "2024-07-23": {
+        "question": "what is your preferred way to experience natural wonders while traveling?",
+        "options": [
+            "hiking and trekking",
+            "taking scenic drives",
+            "wildlife safaris",
+            "visiting national parks and reserves"
+        ]
+    },
+    "2024-07-24": {
+        "question": "how do you stay organized while traveling?",
+        "options": [
+            "using travel apps for itinerary management",
+            "keeping a physical travel journal",
+            "using checklists for packing and activities",
+            "relying on memory and spontaneity"
+        ]
+    },
+    "2024-07-25": {
+        "question": "what is your preferred travel destination for relaxation?",
+        "options": [
+            "tropical beach destinations",
+            "mountain retreats",
+            "spa resorts",
+            "quiet countryside escapes"
+        ]
+    },
+    "2024-07-26": {
+        "question": "how do you prefer to learn about the history and culture of a destination?",
+        "options": [
+            "visiting museums and historical sites",
+            "taking guided heritage tours",
+            "attending cultural performances",
+            "interacting with local historians and experts"
+        ]
+    },
+    "2024-07-27": {
+        "question": "what do you find most appealing about travel rewards programs?",
+        "options": [
+            "earning points for free travel",
+            "exclusive discounts and perks",
+            "upgrades and priority boarding",
+            "flexibility in booking and cancellation"
+        ]
+    },
+    "2024-07-28": {
+        "question": "how do you handle dietary restrictions while traveling?",
+        "options": [
+            "researching restaurants with suitable options",
+            "bringing my own snacks and food",
+            "communicating with chefs and waitstaff",
+            "trying local cuisine regardless"
+        ]
+    },
+    "2024-07-29": {
+        "question": "what adventure activity would you most like to try on your next trip?",
+        "options": [
+            "skydiving or bungee jumping",
+            "scuba diving or snorkeling",
+            "hiking or mountain climbing",
+            "rafting or kayaking"
+        ]
+    },
+    "2024-07-30": {
+        "question": "what travel app or tool do you find most useful?",
+        "options": [
+            "booking platforms (e.g., Expedia, Booking.com)",
+            "navigation apps (e.g., Google Maps, Waze)",
+            "language translation apps",
+            "currency conversion tools"
+        ]
+    },
+    "2024-07-31": {
+        "question": "how do you ensure safety and security while traveling solo?",
+        "options": [
+            "staying in well-reviewed accommodations",
+            "avoiding risky areas and situations",
+            "keeping in touch with friends or family regularly",
+            "carrying emergency contacts and important documents"
+        ]
+    },
+    "2024-08-01": {
+        "question": "what cultural activity would you most like to participate in while traveling?",
+        "options": [
+            "traditional dance or music performances",
+            "cooking classes and culinary tours",
+            "craft workshops and artisan visits",
+            "religious ceremonies or festivals"
+        ]
+    },
+    "2024-08-02": {
+        "question": "how do you manage travel expenses and budgets?",
+        "options": [
+            "setting a daily spending limit",
+            "tracking expenses with budgeting apps",
+            "using travel credit cards for rewards",
+            "being flexible and adjusting plans as needed"
+        ]
+    },
+    "2024-08-03": {
+        "question": "what aspect of solo travel do you find most rewarding?",
+        "options": [
+            "personal growth and self-discovery",
+            "freedom to explore at your own pace",
+            "meeting new people and making unexpected connections",
+            "challenging yourself to step out of your comfort zone"
+        ]
+    },
+    "2024-08-04": {
+        "question": "how do you maintain a healthy lifestyle while traveling?",
+        "options": [
+            "finding hotels with fitness centers or nearby gyms",
+            "choosing healthy food options",
+            "practicing mindfulness and relaxation techniques",
+            "taking regular breaks and staying hydrated"
+        ]
+    },
+    "2024-08-05": {
+        "question": "what is your preferred travel destination for outdoor adventures?",
+        "options": [
+            "national parks and wilderness areas",
+            "ski resorts and snowy landscapes",
+            "desert landscapes and sand dunes",
+            "rainforests and jungle expeditions"
+        ]
+    },
+    "2024-08-06": {
+        "question": "how do you cope with culture shock when traveling to a new country?",
+        "options": [
+            "learning about cultural norms and traditions in advance",
+            "immersing yourself in local customs and practices",
+            "connecting with expats and other travelers",
+            "taking time to adjust and embrace differences"
+        ]
+    },
+    "2024-08-07": {
+        "question": "what do you find most challenging about traveling in a foreign language?",
+        "options": [
+            "communicating with locals",
+            "reading signs and directions",
+            "understanding cultural nuances",
+            "ordering food and making reservations"
+        ]
+    },
+    "2024-08-08": {
+        "question": "what destination would you recommend to someone traveling for the first time?",
+        "options": [
+            "paris, france",
+            "kyoto, japan",
+            "new york city, usa",
+            "cape town, south africa",
+            "rio de janeiro, brazil",
+            "sydney, australia"
+        ]
+    },
+    "2024-08-09": {
+        "question": "how do you balance work and travel when on a business trip?",
+        "options": [
+            "scheduling work hours and free time",
+            "finding suitable locations for remote work",
+            "staying productive while on the move",
+            "managing work commitments and client expectations"
+        ]
+    },
+    "2024-08-10": {
+        "question": "what is your preferred souvenir to bring back from a trip?",
+        "options": [
+            "local artwork or crafts",
+            "specialty foods and spices",
+            "clothing or accessories",
+            "unique items reflecting local culture"
+        ]
+    },
+    "2024-08-11": {
+        "question": "how do you handle unexpected travel delays or cancellations?",
+        "options": [
+            "contacting the airline or travel provider for assistance",
+            "seeking alternative travel arrangements",
+            "utilizing travel insurance coverage",
+            "staying informed and patient while waiting for updates"
+        ]
+    },
+    "2024-08-12": {
+        "question": "what is your preferred type of accommodation for a city break?",
+        "options": [
+            "boutique hotels",
+            "apartment rentals",
+            "budget hostels",
+            "luxury resorts"
+        ]
+    },
+    "2024-08-13": {
+        "question": "how do you explore hidden gems and off-the-beaten-path destinations?",
+        "options": [
+            "asking locals for recommendations",
+            "exploring travel blogs and forums",
+            "using mapping and exploration apps",
+            "joining guided tours to lesser-known spots"
+        ]
+    },
+    "2024-08-14": {
+        "question": "what is your preferred type of destination for a family vacation?",
+        "options": [
+            "beach resorts with family-friendly activities",
+            "theme parks and entertainment complexes",
+            "cultural cities with educational attractions",
+            "natural environments for outdoor adventures"
+        ]
+    },
+    "2024-08-15": {
+        "question": "what travel experience has had the biggest impact on your life?",
+        "options": [
+            "volunteering or giving back to local communities",
+            "visiting historical sites and landmarks",
+            "connecting with nature in remote locations",
+            "participating in cultural exchange programs"
+        ]
+    }
+}
+
