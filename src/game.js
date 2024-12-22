@@ -7,47 +7,60 @@ export const handleUsername = async (bot, chatId, userId, username) => {
   const playGuitarEmoji = '\uD83C\uDFB8'; // 🎸
   const giftEmoji = '\uD83C\uDF81'; // 🎁
   const welcomeText = `
-  Welcome to the $SIMPG Referral Program!
+  Welcome to the MoonMoverz! 🎁
+  
+  🧨 Lucky Wheel Spin and play 2 airdrop takes you to the moon!
 
-  >>> COMMANDS:
-  
-  1️⃣ /start - Access the help menu.  
-  2️⃣ /myreferral - Generate your unique referral link.  
-  3️⃣ /leaderboard - View the top members who have invited friends to become Simp Gods!
-  
-  >>> AIRDROP REWARD RULES:
-  
-  📱 Share Your Link: Use your unique referral link to invite friends!  
-  
-  🚀 Top 20 Rewards: The top 20 members on the leaderboard will share $5,000 in $SIMPG Tokens for FREE!  
-  
-  ⏳ Limited Time: This exclusive pre-launch airdrop is time-sensitive, so act fast and invite as many friends as you can!
-  
-  >>> WHY IT'S FUN BEING A SIMP GOD:
-  
-  🌹 Exclusive Interaction: Engage with our AI Madison Beer like a true Simp God: [simpgods.wtf/ai]
-  
-  🤳 Social Rewards: Post screenshots of your interactions on X with #simpgodswtf for secret rewards!  
-  
-  🎉 Weekly Challenges: Participate in weekly challenges for additional bonuses and keep the community engaged!
+  🌝 MoonMoverz_Bot is the official bot for MoonMoverz, the first meme #Play2Earn game built with classic NFT on the Movement Network. As we gear up for the upcoming mainnet, now’s the perfect time to join us and bring your friends along to earn even more rewards.
+
+  🙋‍♂️ Invite more friends = Earn more USDT and Points for $Moon airdrop
   `;
 
   const user = await User.findOne({ referralCode: userId });
   if (!user && username) {
     await User.create({ referralCode: userId, username });
   }
-  const buttons = []
+  const buttons = [
+    [
+      {
+        text: 'Start',
+        web_app: { url: 'https://moonmoverz-mini-app.vercel.app/' },
+      },
+      {
+        text: 'Join Our Community',
+        url: "https://t.me/moonmoverz",
+      }
+    ],
+    // [{ text: 'Go to Go! AI-RPG', url: 'https://ton.app/social/go!-app?id=1349' }],
+    // [{ text: 'X(Twitter)', url: 'https://x.com/gorwachain' }],
+    // [{ text: 'Telegram', url: 'https://t.me/gorwachain' }],
+    // [{ text: 'Discord', url: 'https://discord.com/gorwachain' }],
+    // [{ text: 'Website', url: 'https://www.goplatform.io/' }],
+  ];
   // // First, send the welcome image
-  const localImagePath = 'https://res.cloudinary.com/danpc9k2a/image/upload/v1722868745/IMG_5974_pprt7m.gif'; // Replace with the local path to your image
+  const localImagePath = 'https://res.cloudinary.com/dg5byassg/image/upload/v1734897230/photo_2024-12-23_04-51-05_axylh0.jpg'; // Replace with the local path to your image
   // const imageData = fs.readFileSync(localImagePath);
   const originalFilename = localImagePath.split('/').pop();
 
-  await bot.sendAnimation(
+  // await bot.sendAnimation(
+  //   chatId,
+  //   localImagePath,
+  //   {
+  //     caption: welcomeText,
+  //     innerWidth: '300px',
+  //     filename: originalFilename,
+  //     parse_mode: 'HTML',
+  //     reply_markup: {
+  //       inline_keyboard: buttons,
+  //     },
+  //   }
+  // );
+
+  await bot.sendPhoto(
     chatId,
     localImagePath,
     {
       caption: welcomeText,
-      innerWidth: '300px',
       filename: originalFilename,
       parse_mode: 'HTML',
       reply_markup: {
